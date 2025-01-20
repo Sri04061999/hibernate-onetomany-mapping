@@ -31,5 +31,6 @@ public class MainClass {
 		transaction.begin();
 		manager.persist(p1);
 		transaction.commit();
+		//fetching
 	}
 }
